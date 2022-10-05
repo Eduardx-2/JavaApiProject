@@ -23,8 +23,8 @@ public class dni_funcion {
 
 	public static void main(String[] args) {
 		try {
-			System.out.println("[1] - Oefa\t\t[2] - Reniec");
-			entradaOpciones = new Scanner(System.in);
+		    System.out.println("[1] - Oefa\t\t[2] - Reniec");
+		    entradaOpciones = new Scanner(System.in);
 		    int opciones;
 		    System.out.print("¿Que opción de consulta eliges? > ");
 		    opciones = entradaOpciones.nextInt();
@@ -64,7 +64,7 @@ public class dni_funcion {
 		    	}
 		    case 2:
 		    	try {
-		    		dni = new Scanner(System.in);
+		    dni = new Scanner(System.in);
                     int dniConsulta;
                     System.out.print("Introduce el dni: ");
                     dniConsulta = dni.nextInt();
