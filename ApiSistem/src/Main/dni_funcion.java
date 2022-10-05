@@ -31,7 +31,7 @@ public class dni_funcion {
 		    switch(opciones) {
 		    case 1:
 		    	try {
-		    		numDni = new Scanner(System.in);
+		    	numDni = new Scanner(System.in);
 	                int dni;
 	                System.out.print("Introduce el dni: ");
 	                dni = numDni.nextInt();
